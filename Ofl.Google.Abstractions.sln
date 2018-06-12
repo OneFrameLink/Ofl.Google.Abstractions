@@ -1,4 +1,3 @@
-
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26403.7
@@ -10,6 +9,17 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ofl.Google.Abstractions", "src\Ofl.Google.Abstractions\Ofl.Google.Abstractions.csproj", "{30E1B984-484F-4566-9FAE-BB166F848D0E}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ofl.Google.Abstractions.Tests", "test\Ofl.Google.Abstractions.Tests\Ofl.Google.Abstractions.Tests.csproj", "{88AA6CCD-A400-4A9D-93F1-F470640FFB3A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "solution-level items", "solution-level items", "{E58CB155-F27E-4BF4-A00D-524CBA5C11F1}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		.gitmodules = .gitmodules
+		appveyor.yml = appveyor.yml
+		directory.build.props = directory.build.props
+		LICENSE = LICENSE
+		Ofl.Google.Abstractions.sln.DotSettings = Ofl.Google.Abstractions.sln.DotSettings
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -52,5 +62,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{30E1B984-484F-4566-9FAE-BB166F848D0E} = {708C7A50-E232-48BA-91F0-074C56E55474}
 		{88AA6CCD-A400-4A9D-93F1-F470640FFB3A} = {B2867329-082E-4C22-97FA-ECA26A15F4B0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2B01B9EF-09EA-401E-B368-E6C44ED1265F}
 	EndGlobalSection
 EndGlobal
